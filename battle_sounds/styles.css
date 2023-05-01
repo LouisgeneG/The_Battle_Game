@@ -1,0 +1,72 @@
+/*
+Author : Louisgene
+Date   : 4/25/2023 
+
+
+*/
+
+
+/*
+font-family: 'Coda Caption', sans-serif;
+font-family: 'Eater', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+*/
+
+body{
+	background-image: url("forest.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+h1{
+	font-family: 'Eater', cursive;
+	color: cornsilk;
+	font-size: 4.5em;
+	text-align: center;
+	text-shadow: darkorange 2px 3px 2px;
+}
+
+div#button{
+	background-color: darkorange;
+	width: 30%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 2.2em;
+	color: cornsilk;
+	border-radius: 10px;
+	transition: 1s;
+}
+div#button:hover{
+	background-color: cornsilk;
+	color: darkorange;
+	cursor: pointer;
+}
+h2#victory{
+	font-family: 'Coda Caption', cursive;
+	color: greenyellow;
+	font-size: 2.5em;
+	text-align: center;
+	text-shadow: black 3px 3px 1px;
+}
+h2#edefeat{
+	font-family: 'Freckle Face', cursive;
+	color: firebrick;
+	font-size: 2.7em;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-shadow: white 2px 2px 2px, black 3px 3px 1px;
+}
+
+audio#lose{
+	font-family: 'Freckle Face', cursive;
+	color: firebrick;
+	font-size: 2.7em;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-shadow: white 2px 2px 2px, black 3px 3px 1px;
+}
